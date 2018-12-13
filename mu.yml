@@ -1,8 +1,12 @@
 environments:
 - name: acceptance
+  loadbalancer: 
+        simptest.com
 - name: production
+  loadbalancer:
+        simptest.com
 service:
-  name: extension
+  name: simptest 
   port: 80
   healthEndpoint: /
   pathPatterns:
