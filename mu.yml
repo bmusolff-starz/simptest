@@ -1,10 +1,6 @@
 environments:
 - name: acceptance
-  loadbalancer: 
-       hostedzone:  simptest.com
 - name: production
-  loadbalancer:
-       hostedzone: simptest.com
 service:
   name: simptest 
   port: 80
